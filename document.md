@@ -577,9 +577,9 @@ For further reading, check out the [XBlocks documentation](https://xblock.readth
 # Thank you!
 
 Please share your feedback with this quick survey
-[http://bit.ly/getting-started-feedback](http://bit.ly/getting-started-feedback)
+[http://bit.ly/2019-openedx-workshop](http://bit.ly/2019-openedx-workshop)
 
 Contact me with any questions: nate@appsembler.com
 
-![new unit](images/QR_code_TJ2G7C8.png
+![new unit](images/QR_code_LDVZJ7N.png
 )
