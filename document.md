@@ -173,14 +173,10 @@ Who's ready to get started!?
 First we need to set up a site. We'll use our handy signup wizard to provide you with an Open edX site that will deliver the course content for the workshop.
 
 
-# Step 1
-
-![step1](images/step1.png)
+#![step1](images/step1.png)
 
 
-# Step 2
-
-![step2](images/step2.png)
+#![step2](images/step2.png)
 
 
 # Step 2a
