@@ -582,4 +582,4 @@ Please share your feedback with this quick survey
 
 Contact me with any questions: nate@appsembler.com
 
-![new unit](images/QR_code_LDVZJ7N.png) <!-- .element height="75%" width="75%" -->
+![new unit](images/QR_code_LDVZJ7N.png)
