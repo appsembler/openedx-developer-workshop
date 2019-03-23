@@ -126,21 +126,6 @@ Technologies that Open edX uses:
 * Hadoop (distributed processing)
 
 
-## Stackable learning content
-
-![architecture](images/stackable-learning-content.png)
-
-
-## Domains
-
-![architecture](images/edx-house.png)
-
-
-## Domains explained
-
-![architecture](images/edx-themes.png)
-
-
 ## edX architecture #1
 
 ![architecture](images/openedx-services.png) <!-- .element height="80%" width="80%" -->
@@ -223,7 +208,10 @@ $ supervisorctl start lms
 lms: started
 ```
 
-Go to `8000-xxxxxxx.demo-avl.appsembler.com` to see LMS running. If you get "Bad Gateway", just wait a min or two, and reload the page.
+Go to `8000-xxxxxxx.demo-avl.appsembler.com` 
+to see LMS running. 
+
+If you get "Bad Gateway", just wait a min or two, and reload the page.
 
 Find log files here: `/var/log/supervisor/lms-stderr.log` and `lms-stdout.log`
 
@@ -235,7 +223,10 @@ $ supervisorctl start cms
 cms: started
 ```
 
-Go to `8001-xxxxxxx.demo-avl.appsembler.com` to see Studio running. If you get "Bad Gateway", just wait a min or two, and reload the page.
+Go to `8001-xxxxxxx.demo-avl.appsembler.com` 
+to see Studio running. 
+
+If you get "Bad Gateway", just wait a min or two, and reload the page.
 
 Find log files here: `/var/log/supervisor/cms-stderr.log` and `cms-stdout.log`
 
