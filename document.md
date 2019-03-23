@@ -179,9 +179,7 @@ First we need to set up a site. We'll use our handy signup wizard to provide you
 #![step2](images/step2.png)
 
 
-# Step 2a
-
-![step2a](images/step2a.png)
+#![step2a](images/step2a.png)
 
 
 # Step 3
