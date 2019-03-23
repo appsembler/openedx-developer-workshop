@@ -145,6 +145,7 @@ Technologies that Open edX uses:
 
 ## Exercises for today
 
+* Import a course into an existing Open edX site
 * Start/stop the LMS and CMS (Studio)
 * Create a superuser
 * Change the platform name
@@ -164,6 +165,107 @@ Technologies that Open edX uses:
 ## Questions?
 
 Who's ready to get started!?
+
+
+
+## Set up a site
+
+First we need to set up a site. We'll use our handy signup wizard to provide you with an Open edX site that will deliver the course content for the workshop.
+
+
+# Step 1
+
+![step1](images/step1.png)
+
+
+# Step 2
+
+![step2](images/step2.png)
+
+
+# Step 2a
+
+![step2a](images/step2a.png)
+
+
+# Step 3
+
+![step3](images/step3.png)
+
+
+# Step 4
+
+![step4](images/step4.png)
+
+
+# Step 5
+
+![step5](images/step5.png)
+
+
+# Step 6
+
+![step6](images/step6.png)
+
+
+# Step 7
+
+![step7](images/step7.png)
+
+
+# Step 8
+
+![step8](images/step8.png)
+
+
+# Step 9
+
+![step9](images/step9.png)
+
+
+# Management Console
+
+![management_console](images/management_console.png)
+
+
+# LMS
+
+![lms](images/lms.png)
+
+
+# Studio1
+
+![studio1](images/studio1.png)
+
+
+# Studio2
+
+![studio2](images/studio2.png)
+
+
+# Studio3
+
+![studio3](images/studio3.png)
+
+
+# Studio4
+
+![studio4](images/studio4.png)
+
+
+# Studio5
+
+![studio5](images/studio5.png)
+
+
+# Studio6
+
+![studio6](images/studio6.png)
+
+
+# Studio7
+
+![studio7](images/studio7.png)
 
 
 
