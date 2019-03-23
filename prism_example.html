@@ -1,0 +1,13 @@
+<link href="/static/prism.css" rel="stylesheet" />
+<script src="/static/prism.js"></script>
+
+<pre>
+	<code class="language-shell">
+$ cd /openedx/edx-platform
+$ ./manage.py lms runserver 0.0.0.0:8000
+$ ./manage.py cms runserver 0.0.0.0:8001
+    </code>
+</pre>
+<p>
+  Both of these commands run in the foreground, which is why we use supervisor to run them in the background.
+</p>

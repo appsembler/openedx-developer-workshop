@@ -383,7 +383,7 @@ $ supervisorctl restart lms
 
 ## Go to the register page
 
-![settings](images/Poutine_in_Montreal.png) <!-- .element height="50%" width="50%" -->
+![settings](images/sunny_in_san_diego.png) <!-- .element height="50%" width="50%" -->
 
 
 ## Questions?
@@ -493,6 +493,13 @@ And replace it with:
 ```
 
 
+## See your changes
+
+When you refresh the LMS home page, you should now see the Appsembler logo in the footer.
+
+![settings](images/logo_in_footer.png) <!-- .element height="50%" width="50%" -->
+
+
 ## Questions?
 
 Any questions about changing the theme?
@@ -520,7 +527,7 @@ There's a cool in-video quiz XBlock from Stanford. Let's add it to our Open edX 
 $ pip install -e git+https://github.com/Stanford-Online/xblock-in-video-quiz.git#egg=xblock-in-video-quiz
 ...
 Successfully installed invideoquiz-xblock
-$ cd /openedx-platform
+$ cd /openedx/edx-platform
 $ paver update_assets lms --settings=universal.development
 $ paver update_assets cms --settings=universal.development
 ```
