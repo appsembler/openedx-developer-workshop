@@ -1,7 +1,7 @@
 <!-- uncomment this commented section if you're using Madoko to edit the markdown
 [INCLUDE=presentation]
 Title         : Getting Started with Open edX Development
-Sub Title     : Open edX Conference 2018
+Sub Title     : Open edX Conference 2019
 Author        : Nate Aune
 Affiliation   : Appsembler
 Email         : nate@appsembler.com
@@ -24,19 +24,19 @@ If you want a printable PDF, go to http://localhost:8000?print-pdf
 -->
 
 ## Getting Started with Open edX Development
-### Open edX Conference 2018
-### Montreal, Canada
-### May 29, 2018
+### Open edX Conference 2019
+### San Diego, CA
+### March 26, 2019
 
 
 
 ## Housekeeping
 
 Follow along with these slides at:
-https://appsembler.github.io/2018-openedx-developer-workshop/
+https://appsembler.github.io/openedx-developer-workshop/
 
 Make yourself a printable PDF version:
-https://appsembler.github.io/2018-openedx-developer-workshop?print-pdf
+https://appsembler.github.io/openedx-developer-workshop?print-pdf
 
 *Please* complete the short survey at the end of the workshop.
 
@@ -47,9 +47,8 @@ https://appsembler.github.io/2018-openedx-developer-workshop?print-pdf
 Your esteemed workshop facilitators! 
 
 - Nate Aune (nate@appsembler.com)
-- Omar Al-Ithawi (omar@appsembler.com)
-- Nimisha Asthagiri (nasthagiri@edx.org)
-- Robert Raposa (rraposa@edx.org)
+- John Baldwin (john@appsembler.com)
+- Bryan Wilson (bryan@appsembler.com)
 
 We will be on hand to help you if you get stuck or have questions.
 
@@ -196,7 +195,7 @@ Go to [bit.ly/getting-started-edx](http://bit.ly/getting-started-edx) to enroll 
 
 ## Open edX dev "in the cloud"
 
-Go to http://8888-xxxxxxx.demo-wharf.appsembler.com/entry.html
+Go to http://8888-xxxxxxx.demo-avl.appsembler.com/entry.html
 
 Where `xxxxxxx` identifies your personal development environment.
 (Every student will have their own unique URL)
@@ -224,7 +223,7 @@ $ supervisorctl start lms
 lms: started
 ```
 
-Go to `8000-xxxxxxx.demo-wharf.appsembler.com` to see LMS running. If you get "Bad Gateway", just wait a min or two, and reload the page.
+Go to `8000-xxxxxxx.demo-avl.appsembler.com` to see LMS running. If you get "Bad Gateway", just wait a min or two, and reload the page.
 
 Find log files here: `/var/log/supervisor/lms-stderr.log` and `lms-stdout.log`
 
@@ -236,7 +235,7 @@ $ supervisorctl start cms
 cms: started
 ```
 
-Go to `8001-xxxxxxx.demo-wharf.appsembler.com` to see Studio running. If you get "Bad Gateway", just wait a min or two, and reload the page.
+Go to `8001-xxxxxxx.demo-avl.appsembler.com` to see Studio running. If you get "Bad Gateway", just wait a min or two, and reload the page.
 
 Find log files here: `/var/log/supervisor/cms-stderr.log` and `cms-stdout.log`
 
@@ -317,7 +316,7 @@ Edit the `lms.env.json` file and change this line:
 To:
 
 ```json
-  "PLATFORM_NAME": "Poutine in Montreal",
+  "PLATFORM_NAME": "Sunny in San Diego",
 ```
 
 Now restart the LMS to see your change.
@@ -336,7 +335,7 @@ $ supervisorctl restart lms
 
 Any questions about the settings files or feature flags?
 
-For further reading about what features are available, check out the [feature flags documentation](https://openedx.atlassian.net/wiki/spaces/OpenDev/pages/34734726/edX+Feature+Flags) on the edX wiki.
+For further reading about what features are available, check out the [feature toggles OEP-17](https://open-edx-proposals.readthedocs.io/en/latest/oep-0017-bp-feature-toggles.html) on OEP Read the Docs site.
 
 
 
@@ -353,7 +352,7 @@ README.rst  conf  edge.edx.org  edx.org  red-theme  stanford-style
 
 ## Install a new theme
 
-Let's install the `blue-theme`, hand-crafted by Omar!
+Let's install the `blue-theme`, hand-crafted by Omar, one of our engineers at Appsembler!
 
 ```shell
 $ cd /openedx/edx-platform/themes
@@ -372,7 +371,7 @@ Edit the `lms.env.json` file and add the last 3 lines:
   "LOG_DIR": "/openedx/data/logs",
   "LOGGING_ENV": "sandbox",
   "OAUTH_OIDC_ISSUER": "http://localhost:8000/oauth2",
-  "PLATFORM_NAME": "Poutine in Montreal",
+  "PLATFORM_NAME": "Sunny in San Diego",
   "FEATURES": {
     "PREVIEW_LMS_BASE": "preview.localhost"
     },
@@ -455,7 +454,7 @@ What is an XBlock?
 ## Where do I find these XBlocks?
 
 * [XBlocks Directory in edX wiki](https://openedx.atlassian.net/wiki/display/COMM/XBlocks+Directory)
-* [Search Github for "xblock" - 499 at last count!](https://github.com/search?q=xblock&type=Repositories)
+* [Search Github for "xblock" - 532 at last count!](https://github.com/search?q=xblock&type=Repositories)
 
 
 ## Let's install an XBlock!
@@ -536,8 +535,8 @@ For further reading, check out the [XBlocks documentation].
 ## Documentation
 
 * [Official docs.edx.org](https://docs.edx.org)
-* [Building and Running Open edX](https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/open-release-ginkgo.master/)
-* [Installing, Configuring and Running Open edX](https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/open-release-ginkgo.master/)
+* [Building and Running Open edX](https://edx.readthedocs.io/projects/open-edx-building-and-running-a-course/en/latest/)
+* [Installing, Configuring and Running Open edX](https://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/)
 * [Open edX Developer Guide](https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/)
 * [edX's Confluence Wiki](http://openedx.atlassian.net/wiki)
 * [Open edX Youtube Channel](http://youtube.com/c/openedx)
@@ -552,31 +551,30 @@ For further reading, check out the [XBlocks documentation].
 * [edXchange](https://edxchange.opencraft.com)
 
 
-## Tutorials @ 10:40am
+## Tutorials @ 1:30-3pm
 
-* [Open edX from Scratch](https://openedx2018.sched.com/event/EUAN/open-edx-from-scratch)
-* [Maintainable Open edX Extensions](https://openedx2018.sched.com/event/EUAW/maintainable-open-edx-extensions)
-* [Studio frontend](https://openedx2018.sched.com/event/EUAR/studio-frontend-develop-on-the-edx-platform-using-modern-frontend-technology)
-
-
-## Tutorials @ 1:20pm
-
-* [Deployment for Small Institutions](https://openedx2018.sched.com/event/EUAO/deployment-for-small-institutions)
+* [Deploying Open edX in Production using Docker and Kubernetes](https://openedx2019.sched.com/event/KcTf/open-edx-production-ready-in-10-steps)
+* [Building Open edX frontend applications with create-edx-react-app, Part 1](https://openedx2019.sched.com/event/L6bV/building-open-edx-frontend-applications-with-create-edx-react-app-part-1)
+* [Learning and Teaching How to Contribute to Open edX, Part 1](https://openedx2019.sched.com/event/L6SY/learning-and-teaching-how-to-contribute-to-open-edx-part-1)
 
 
-## Tutorials @ 3:00pm
+## Tutorials @ 3:15-5pm
 
-* [Running Open edX in production with Docker](https://openedx2018.sched.com/event/EUAP/running-open-edx-in-production-with-docker)
-* [iOS & Android Application InstallFest](https://openedx2018.sched.com/event/EUAT/ios-android-application-installfest)
-* [Open edX 101 - Basic course authoring](https://openedx2018.sched.com/event/EUAL/open-edx-101-basic-course-authoring)
+* [Installfest](https://openedx2019.sched.com/event/KcTf/open-edx-production-ready-in-10-steps)
+
+
+## Tutorials @ 3:30-5pm
+
+* [Building Open edX frontend applications with create-edx-react-app, Part 2
+](https://openedx2019.sched.com/event/Mkcr/building-open-edx-frontend-applications-with-create-edx-react-app-part-2)
+* [Get Started with Figures](https://openedx2019.sched.com/event/L6Zu/get-started-with-figures)
+* [Learning and Teaching How to Contribute to Open edX, Part 2](hhttps://openedx2019.sched.com/event/MgRF/learning-and-teaching-how-to-contribute-to-open-edx-part-2)
 
 
 
 ## Credits
 
-* Nimisha for her help with the workshop and sharing her awesome slides
-* Feanil for being here and making a great presentation about hosting edX
-* Omar for being here and creating the blue-theme
+* Nimisha for her help with the workshop last year and sharing her awesome slides
 * Filip for putting together the dev environment. Huge timesaver!
 * Lawrence McDaniel for his How to install an XBlock tutorial
 * Matthew for trying out the tutorial and providing feedback
