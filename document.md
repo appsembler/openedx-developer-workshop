@@ -508,12 +508,13 @@ If not, raise your hand and someone will come around to help you.
 
 Read more at [Options for extending Open edX](http://edx.readthedocs.io/projects/edx-developer-guide/en/latest/extending_platform/extending.html)
 
+Also, check out [Django App Plugins](https://github.com/edx/edx-platform/blob/master/openedx/core/djangoapps/plugins/README.rst)
 
 ## Questions?
 
 Any questions about XBlocks or extending Open edX?
 
-For further reading, check out the [XBlocks documentation].
+For further reading, check out the [XBlocks documentation](https://xblock.readthedocs.io) and [XBlock Tutorial](https://edx.readthedocs.io/projects/xblock-tutorial).
 
 
 
@@ -541,6 +542,7 @@ For further reading, check out the [XBlocks documentation].
 * [edX's Confluence Wiki](http://openedx.atlassian.net/wiki)
 * [Open edX Youtube Channel](http://youtube.com/c/openedx)
 * [edX Architecture Onboarding](https://docs.google.com/presentation/d/1X3QaSw4sqPLvkXBhC8phoFA7j8dhsL08MCZWwIDMIBE/)
+* [Open edX Named Releases](https://edx.readthedocs.io/projects/edx-developer-docs/en/latest/named_releases.html)
 
 
 ## Community
