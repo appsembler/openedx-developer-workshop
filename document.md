@@ -33,6 +33,7 @@ If you want a printable PDF, go to http://localhost:8000?print-pdf
 ## Housekeeping
 
 Follow along with these slides at:
+
 [bit.ly/openedx-workshop-slides](http://bit.ly/openedx-workshop-slides)
 
 Make yourself a printable PDF version:
