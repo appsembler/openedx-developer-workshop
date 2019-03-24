@@ -232,7 +232,7 @@ First we need to set up a site. We'll use our handy signup wizard to provide you
 
 ## Start your engines!
 
-Go to [bit.ly/getting-started-edx](http://bit.ly/getting-started-edx) to enroll in the course and get your lab environment.
+Go to [bit.ly/2HFwmyd](http://bit.ly/2HFwmyd) to enroll in the course and get your lab environment.
 
 ![launchlab](images/launch_lab_button.png) <!-- .element height="70%" width="70%" -->
 
