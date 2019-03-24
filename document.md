@@ -221,6 +221,11 @@ First we need to set up a site. We'll use our handy signup wizard to provide you
 ![studio4](images/studio4.png) <!-- .element height="80%" width="80%" -->
 
 
+## Download course
+
+Go to this URL to download the course that you'll be importing into your site.
+
+
 ![studio5](images/studio5.png) <!-- .element height="80%" width="80%" -->
 
 
@@ -228,6 +233,14 @@ First we need to set up a site. We'll use our handy signup wizard to provide you
 
 
 ![studio7](images/studio7.png) <!-- .element height="70%" width="70%" -->
+
+
+## Check point
+
+Was everyone able to get a site set up, and import the course?
+
+If not, raise your hand and someone will come around to help you.
+
 
 
 ## Start your engines!
