@@ -464,7 +464,7 @@ That's because we still need to compile the theme assets with this command:
 
 ```shell
 $ cd /openedx/edx-platform
-$ paver update_assets lms --settings=universal.development
+$ paver update_assets lms --settings=universal.development --themes=blue-theme
 ...
 [...this might take awhile...]
 ...
