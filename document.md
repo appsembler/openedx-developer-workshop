@@ -228,6 +228,8 @@ Go to [bit.ly/tahoe-signup-wizard](http://bit.ly/tahoe-signup-wizard)
 
 Go to this URL to download the course that you'll be importing into your site.
 
+[http://bit.ly/openedx-dev-course](http://bit.ly/openedx-dev-course)
+
 
 ![studio5](images/studio5.png) <!-- .element height="80%" width="80%" -->
 
