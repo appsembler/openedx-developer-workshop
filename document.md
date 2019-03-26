@@ -50,6 +50,7 @@ Your esteemed workshop facilitators!
 - Nate Aune (nate@appsembler.com)
 - John Baldwin (john@appsembler.com)
 - Bryan Wilson (bryan@appsembler.com)
+- David Ormsbee (dormsbee@edx.org)
 
 We will be on hand to help you if you get stuck or have questions.
 
@@ -172,6 +173,8 @@ Who's ready to get started!?
 
 First we need to set up a site. We'll use our handy signup wizard to provide you with an Open edX site that will deliver the course content for the workshop.
 
+Go to [bit.ly/tahoe-signup-wizard](http://bit.ly/tahoe-signup-wizard)
+
 
 ![step1](images/step1.png) <!-- .element height="80%" width="80%" -->
 
@@ -245,7 +248,7 @@ If not, raise your hand and someone will come around to help you.
 
 ## Start your engines!
 
-Go to [bit.ly/2HFwmyd](http://bit.ly/2HFwmyd) to enroll in the course and get your lab environment.
+Once you're viewing your live course, navigate to the "Start here" section. You should see this button:
 
 ![launchlab](images/launch_lab_button.png) <!-- .element height="70%" width="70%" -->
 
